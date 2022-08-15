@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val txtNome:TextView = findViewById(R.id.edtNome)
         val txtEndereco:TextView = findViewById(R.id.edtEndereco)
         val txtBairro:TextView = findViewById(R.id.edtBairro)
-        val txtCEP:TextView = findViewById(R.id.edtCEP)
+        val txtCep:TextView = findViewById(R.id.edtCep)
         val txtCidade:TextView = findViewById(R.id.edtCidade)
 
         val btnCadastrar:Button = findViewById(R.id.btnCadastrar)
@@ -25,5 +25,6 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Resultado::class.java)
             startActivity(intent)
         }
+
     }
 }
